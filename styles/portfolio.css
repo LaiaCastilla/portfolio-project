@@ -19,32 +19,31 @@ h6 {
   font-family: var(--heading-font);
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 140px;
-  padding-top: 223px;
-}
-
 body {
   background: var(--primary-color);
   font-family: var(--default-font);
   color: var(--secondary-color);
   text-align: center;
 }
+h1 {
+  font-weight: bold;
+  font-size: 140px;
+  padding-top: 223px;
+}
 
-.hero h2 {
+h2 {
   font-family: var(--default-font);
   font-weight: normal;
   font-size: 30px;
   line-height: 2;
 }
-.hero .intro-links a {
+.intro-links a {
   font-family: bitter;
   color: var(--navigation-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
-.hero .intro-links a:hover {
+.intro-links a:hover {
   color: var(--btn-color);
   text-decoration: none;
 }
@@ -72,11 +71,11 @@ body {
   transform-origin: bottom left;
 }
 
-.hero .footer {
+.footer {
   margin-top: 206px;
   padding-bottom: 100px;
 }
-.hero .email {
+.email {
   font-size: 18px;
 }
 .social-media {
@@ -91,4 +90,13 @@ body {
 }
 .social-media a:hover {
   transform: scale(1.5);
+}
+
+/* specific to work page */
+.secondary-title {
+  font-size: 64px;
+  width: 825px;
+  text-align: start;
+  padding: 0px;
+  margin: 140px 0 0 167px;
 }
