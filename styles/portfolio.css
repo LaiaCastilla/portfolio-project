@@ -47,10 +47,17 @@ h1 {
 }
 .hero .footer {
   margin-top: 206px;
+  padding-bottom: 100px;
 }
 .social-media {
   padding: 41px 0px 40px;
   display: flex;
   justify-content: center;
   font-size: 24px;
+}
+.icon {
+  padding: 0px 20px;
+}
+.social-media a:hover {
+  transform: scale(1.5);
 }
