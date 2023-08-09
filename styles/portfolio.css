@@ -25,9 +25,9 @@ h1 {
   padding-top: 223px;
 }
 
-.hero {
-  font-family: var(--default-font);
+body {
   background: var(--primary-color);
+  font-family: var(--default-font);
   color: var(--secondary-color);
   text-align: center;
 }
@@ -37,6 +37,40 @@ h1 {
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
+}
+.hero .intro-links a {
+  font-family: bitter;
+  color: var(--navigation-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.hero .intro-links a:hover {
+  color: var(--btn-color);
+  text-decoration: none;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: var(--btn-color);
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--btn-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .hero .btn-contact {
   color: var(--secondary-color);
