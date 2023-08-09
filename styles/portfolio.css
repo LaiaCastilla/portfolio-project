@@ -21,7 +21,7 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: 128px;
+  font-size: 140px;
   padding-top: 223px;
 }
 
@@ -35,7 +35,7 @@ body {
 .hero h2 {
   font-family: var(--default-font);
   font-weight: normal;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 2;
 }
 .hero .intro-links a {
@@ -49,12 +49,12 @@ body {
   text-decoration: none;
 }
 
+/* Underline animation for the links */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   color: var(--btn-color);
 }
-
 .hover-underline-animation::after {
   content: "";
   position: absolute;
@@ -67,24 +67,20 @@ body {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.hero .btn-contact {
-  color: var(--secondary-color);
-  background: var(--btn-color);
-  padding: 18px 30px;
-  border-radius: 4px;
-  margin-top: 49px;
-}
+
 .hero .footer {
   margin-top: 206px;
   padding-bottom: 100px;
 }
+.hero .email {
+  font-size: 18px;
+}
 .social-media {
-  padding: 41px 0px 40px;
+  padding: 10px 0px 40px;
   display: flex;
   justify-content: center;
   font-size: 24px;
