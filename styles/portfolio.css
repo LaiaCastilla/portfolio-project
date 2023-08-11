@@ -258,7 +258,7 @@ h2 {
   }
   .about-me .intro-links a {
     font-size: 18px;
-    padding-left: 20px;
+    margin-left: 10px;
   }
 }
 @media (min-height: 800px) {
