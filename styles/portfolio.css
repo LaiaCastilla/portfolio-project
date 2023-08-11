@@ -159,6 +159,19 @@ img {
   background: var(--secondary-color);
 }
 
+/* about me */
+.about-me h1 {
+  font-size: 64px;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-me p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
 @media (max-width: 830px) {
   h1 {
     font-weight: bold;
