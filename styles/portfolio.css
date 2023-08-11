@@ -182,6 +182,10 @@ h2 {
 }
 .about-me img {
   border-radius: 4px;
+  padding-top: 30px;
+}
+.about-me .intro-links {
+  font-size: 18px;
 }
 
 @media (max-width: 830px) {
