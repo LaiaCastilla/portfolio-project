@@ -246,8 +246,21 @@ h2 {
   .project-description a {
     margin-top: 0px;
   }
+  .about-me h1 {
+    max-width: ;
+  }
+  .about-me h1,
+  h2 {
+    text-align: center;
+  }
+
   .about-me p {
-    padding-right: 0px;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+  }
+  .about-me .intro-links {
+    font-size: 18px;
+    padding-left: 20px;
   }
 }
 @media (min-height: 800px) {
