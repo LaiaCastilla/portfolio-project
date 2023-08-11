@@ -176,14 +176,17 @@ h2 {
   line-height: 35px;
   font-weight: 200;
   text-align: justify;
+  padding-right: 30px;
 }
 .about-me p em {
   font-weight: normal;
 }
 .about-me img {
   border-radius: 4px;
-  padding-top: 30px;
+  padding-top: 100px;
+  padding-left: 20px;
 }
+
 .about-me .intro-links {
   font-size: 18px;
 }
@@ -242,6 +245,9 @@ h2 {
   }
   .project-description a {
     margin-top: 0px;
+  }
+  .about-me p {
+    padding-right: 0px;
   }
 }
 @media (min-height: 800px) {
