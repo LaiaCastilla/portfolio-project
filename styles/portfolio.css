@@ -202,10 +202,15 @@ h2 {
 }
 #contact-me .footer {
   margin-top: 50px;
-
-  /* padding-bottom: 50px; */
+  padding-bottom: 0px;
 }
-
+#contact-me .email {
+  transition: all 200ms ease-in-out;
+}
+#contact-me .email:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 @media (max-width: 830px) {
   h1 {
     font-weight: bold;
@@ -273,6 +278,10 @@ h2 {
   .about-me .intro-links a {
     font-size: 18px;
     margin-left: 10px;
+  }
+  #contact-me .secondary-title {
+    text-align: left;
+    width: 500px;
   }
 
   #contact-me .email {
