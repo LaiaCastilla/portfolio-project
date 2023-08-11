@@ -246,9 +246,7 @@ h2 {
   .project-description a {
     margin-top: 0px;
   }
-  .about-me h1 {
-    max-width: ;
-  }
+
   .about-me h1,
   h2 {
     text-align: center;
@@ -258,7 +256,7 @@ h2 {
     padding: 0 20px 0 20px;
     font-size: 16px;
   }
-  .about-me .intro-links {
+  .about-me .intro-links a {
     font-size: 18px;
     padding-left: 20px;
   }
