@@ -118,7 +118,7 @@ h2 {
     scale: 100%;
   }
 }
-img {
+.work-portfolio img {
   aspect-ratio: 5/4;
   object-fit: cover;
 
@@ -160,16 +160,28 @@ img {
 }
 
 /* about me */
+.about-me {
+  text-align: left;
+  padding-top: 50px;
+}
 .about-me h1 {
   font-size: 64px;
+  padding-top: 0px;
 }
 .about-me h2 {
   font-size: 18px;
-  font-weight: bold;
 }
 .about-me p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 35px;
+  font-weight: 200;
+  text-align: justify;
+}
+.about-me p em {
+  font-weight: normal;
+}
+.about-me img {
+  border-radius: 4px;
 }
 
 @media (max-width: 830px) {
