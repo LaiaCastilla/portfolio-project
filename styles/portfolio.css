@@ -11,11 +11,7 @@ font-family: 'Poppins', sans-serif; */
   --default-font: "Poppins", sans-serif;
 }
 h1,
-h2,
-h3,
-h4,
-h4,
-h6 {
+h2 {
   font-family: var(--heading-font);
 }
 
@@ -28,7 +24,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 140px;
-  padding-top: 223px;
+  padding-top: 200px;
 }
 
 h2 {
@@ -70,8 +66,8 @@ h2 {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.parent .footer {
-  margin-top: 208px;
+.homepage .footer {
+  margin-top: 200px;
 }
 .footer .email {
   font-size: 24px;
@@ -88,9 +84,6 @@ h2 {
 }
 
 /* specific to work page */
-.container {
-  /* text-align: center; */
-}
 .secondary-title {
   font-size: 64px;
   width: 600px;
@@ -145,11 +138,9 @@ h2 {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  /* background: rgba(187, 212, 237, 0.6); */
   border: solid 1px var(--navigation-color);
   color: var(--secondary-color);
   font-family: bitter;
-
   transition: all 200ms ease-in-out;
 }
 .launch-link:hover {
@@ -168,7 +159,7 @@ h2 {
   color: var(--navigation-color);
 }
 .work-inquiry .hover-underline-animation::after {
-  background-color: var(--secondary-color);
+  background-color: var(--navigation-color);
 }
 
 /* about me */
@@ -241,10 +232,10 @@ h2 {
   .intro-links a {
     font-size: 12px;
   }
-  .parent {
+  .homepage {
     position: relative;
   }
-  .parent .footer {
+  .homepage .footer {
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
