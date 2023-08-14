@@ -70,6 +70,22 @@ h2 {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.parent .footer {
+  margin-top: 208px;
+}
+.footer .email {
+  font-size: 24px;
+}
+.icon {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  padding: 0px 20px;
+  transition: all 200ms ease-in-out;
+}
+.icon:hover {
+  transform: scale(1.5);
+}
 
 /* specific to work page */
 .container {
@@ -140,6 +156,20 @@ h2 {
   color: var(--primary-color);
   background: var(--secondary-color);
 }
+.work-inquiry {
+  font-size: 55px;
+  margin-top: 100px;
+  font-family: var(--heading-font);
+  text-decoration: none;
+  color: var(--navigation-color);
+  transition: all 200ms ease-in-out;
+}
+.work-inquiry .hover-underline-animation {
+  color: var(--navigation-color);
+}
+.work-inquiry .hover-underline-animation::after {
+  background-color: var(--secondary-color);
+}
 
 /* about me */
 .about-me {
@@ -180,12 +210,7 @@ h2 {
   font-family: var(--heading-font);
   font-size: 55px;
 }
-.work-inquiry {
-  font-family: var(--heading-font);
-  font-size: 55px;
-  margin-bottom: 50px;
-  text-decoration: none;
-}
+
 #contact .footer {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -228,7 +253,7 @@ h2 {
     /* Height of the footer*/
     height: 120px;
   }
-  .email {
+  .footer .email {
     font-size: 14px;
   }
   .social-media {
@@ -257,6 +282,10 @@ h2 {
   }
   .project-description a {
     margin-top: 0px;
+  }
+  .work-inquiry {
+    margin-top: 10px;
+    font-size: 30px;
   }
   /* about me page */
   .about-me h1,
@@ -289,6 +318,7 @@ h2 {
   }
   .navbar-nav {
     padding-right: 0px;
+    margin-right: 0px;
   }
 }
 @media (min-height: 800px) {
