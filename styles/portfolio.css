@@ -71,27 +71,6 @@ h2 {
   transform-origin: bottom left;
 }
 
-.footer {
-  margin-top: 206px;
-  padding-bottom: 100px;
-}
-.email {
-  font-size: 18px;
-}
-.social-media {
-  padding: 10px 0px 40px;
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-  transition: all 200ms ease-in-out;
-}
-.icon {
-  padding: 0px 20px;
-}
-.social-media a:hover {
-  transform: scale(1.5);
-}
-
 /* specific to work page */
 .container {
   /* text-align: center; */
@@ -193,6 +172,7 @@ h2 {
 .about-me .intro-links {
   font-size: 18px;
 }
+
 #contact {
   margin-top: 100px;
 }
@@ -213,6 +193,9 @@ h2 {
 }
 .navbar-brand {
   margin-left: 80px;
+}
+.navbar-nav {
+  padding-right: 139px;
 }
 @media (max-width: 830px) {
   h1 {
@@ -295,6 +278,10 @@ h2 {
   }
   .navbar-brand {
     margin-left: 0px;
+    padding-left: 0px;
+  }
+  .navbar-nav {
+    padding-right: 0px;
   }
 }
 @media (min-height: 800px) {
