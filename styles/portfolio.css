@@ -147,6 +147,7 @@ h2 {
   color: var(--primary-color);
   background: var(--secondary-color);
 }
+
 .work-inquiry {
   font-size: 55px;
   margin-top: 100px;
@@ -169,7 +170,7 @@ h2 {
 }
 .about-me h1 {
   font-size: 64px;
-  padding-top: 0px;
+  padding-top: 60px;
 }
 .about-me h2 {
   font-size: 18px;
@@ -185,8 +186,8 @@ h2 {
   font-weight: normal;
 }
 .about-me img {
-  padding-top: 100px;
   padding-left: 20px;
+  border-radius: 4px;
 }
 
 .about-me .intro-links {
@@ -194,7 +195,7 @@ h2 {
 }
 
 #contact {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 #contact .secondary-title {
   font-family: var(--heading-font);
@@ -294,18 +295,24 @@ h2 {
     font-size: 30px;
   }
   /* about me page */
+  .about-me h1 {
+    padding-top: 0px;
+  }
   .about-me h1,
   h2 {
     text-align: center;
   }
 
   .about-me p {
-    padding: 0 10px 0 10px;
+    padding: 0 10 0 0px;
     font-size: 16px;
   }
   .about-me .intro-links a {
     font-size: 18px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+  }
+  #contact {
+    padding: 0 10px 0 0px;
   }
   #contact .secondary-title {
     text-align: left;
